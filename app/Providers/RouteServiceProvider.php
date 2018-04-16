@@ -41,9 +41,9 @@ class RouteServiceProvider extends ServiceProvider
         // 前端公用
         $this->mapWebCommonRoutes();
         // PC端
-        // $this->mapPcRoutes();
+        $this->mapPcRoutes();
         // mobile端
-        $this->mapMobileRoutes();
+        // $this->mapMobileRoutes();
         //
     }
 

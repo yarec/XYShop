@@ -122,5 +122,8 @@ class TagService
         return $ad;
     }
 
+    public function getMenu($value='') {
+        return [];
+    }
 }
     
